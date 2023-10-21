@@ -1,3 +1,0 @@
-todo:
- [+] Create NPM project
- [.] 
