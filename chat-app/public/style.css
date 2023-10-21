@@ -14,15 +14,16 @@ body{
 section.chat__section{
     width: 800px;
     max-width: 90%;
-    background: linear-gradient(yellow,red);
+    background: linear-gradient(rgb(255, 13, 199),rgb(255, 34, 93));
     box-shadow: 0 10px 15px -3px rgba(0, -0, -0, -0.1), 0 4px  6px -2px rgba(0, -0, -0, -0.05);
-
+    border-radius: 20px;
 }
 .brand{
     padding: 20px;
     background: #3e3e3e;
     display: flex;
     align-items: center;
+    border-radius: 20px;
 }
 .brand h1{
     font-size: 20px;
@@ -38,34 +39,37 @@ section.chat__section{
     padding-top: 40px;
 }
 textarea{
-    width: 100%;
-    border: none;
+    border: 2px solid;
+    width: 97%;
     padding: 20px;
+    margin-left: 14px;
     font-size: 16px;
     outline: none;
     background: linear-gradient(skyblue, silver);
+    border-radius: 20px;
 }
 .message{
     padding: 20px;
-    border-radius: 4px;
     margin-bottom: 40px;
     max-width: 300px;
     position: relative;
 }
 .incoming{
-    background: #8F8BE8;
-    color: #fff;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 1px 20px 20px;
 }
 .outgoing{
     background: skyblue;
     color: rgb(0, 0, 0);
     margin-left: auto;
+    border-radius: 20px 1px 20px 20px;
 
 }
 .message h4{
     position: absolute;
     top: -20px;
     left: 0;
-    color: #333;
+    color: #030303;
     font-size: 14px;
 }
